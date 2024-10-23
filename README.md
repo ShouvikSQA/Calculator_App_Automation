@@ -1,7 +1,7 @@
 # Calculator App Automation With Appium
 ## Project Summary
 In this project i have automated the Google Calculator APK  using Selenium, TestNG, and Appium in IntelliJ IDEA, with testing conducted on the Android Studio emulator.
-I have generated the Allure Report for test visualization of the test suite.
+I have generated the Allure Report for test visualization of the test suites.
 
 
 ## Technology Used:
@@ -16,23 +16,23 @@ I have generated the Allure Report for test visualization of the test suite.
 1. Automate any series for calculator app. Pass the series as a parameter to your test method. 
 For an example:
 
-100/10*5-10+60
+   100/10*5-10+60
 
-pseudocode for your test function can be look like:
+   pseudocode for your test function can be look like:
 
-public void doSeries(){
-calcuateSeries("100/10*5-10+60");
-}
+   public void doSeries(){
+   calcuateSeries("100/10*5-10+60");
+   }
 
 2. write another function where following series will be calculated from csv file. 
 
-//data.csv
+   //data.csv
 
-50+40-30/2+20 //assert 50 
+   50+40-30/2+20 //assert 50 
 
-10*2/2+10-20 // assert 0 
+   10*2/2+10-20 // assert 0 
 
-4pi2^3 // assert 100.53
+   4pi2^3 // assert 100.53
 
 ## How to Run the Project
 1. Clone the project
